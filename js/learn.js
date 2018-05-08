@@ -7,6 +7,8 @@ var timeSecond = 0;
 var timeInter,isLx = false;
 var errorRemIndex,danxLength,duoxLength,caseLength,typeArr,topicJson,abcTrue,answerPr;
 var userName = window.sessionStorage.getItem("user");
+var SourceIsMobile = SourceIsMobile();  //判断来源是否是移动端
+
 /*------------------------------- init ------------------------------------------*/
 if(!userName){
     window.location.href = "login.html";

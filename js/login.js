@@ -5,6 +5,9 @@
 var userNow,pwdNow;
 var userCookie = parseInt(Cookie.getCookie("user"));
 var pwdCookie = parseInt(Cookie.getCookie("pwd"));
+var SourceIsMobile = SourceIsMobile();      //判断来源是否是移动端
+
+
 if(userCookie&&pwdCookie){
     $(".user-text").val(Cookie.getCookie("user"));
     $(".pwd-text").val(Cookie.getCookie("pwd"));

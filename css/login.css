@@ -13,6 +13,7 @@ body,html{
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
+
 .header{
     width:100%;
     height:45px;
@@ -82,3 +83,4 @@ body,html{
     color: red;
     margin-top: 5px;
 }
+
